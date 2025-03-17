@@ -1,2 +1,4 @@
-# prge_wig21gg1s0
-tutorial for building spatial aplictions
+# GEOPRTAL
+
+This will be a geoportal based on 3-tier achitecture with
+frontend (ReactJs), geoserver (Geoserver) and database (PostGIS.)
