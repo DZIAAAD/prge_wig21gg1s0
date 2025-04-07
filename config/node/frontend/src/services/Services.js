@@ -4,6 +4,7 @@ import dziekan from "./dziekan_wig.jpg";
 import promocja from "./promocja_wat.jpg";
 import sztab from "./sztab_wat.jpg";
 import "./Services.css";
+import { Link } from "react-router-dom";
 
 function Services() {
   return (
@@ -15,12 +16,16 @@ function Services() {
           </div>
 
           <div className="services_buttons">
-            <button className="services_button" id="mapa">
-              MAPA
-            </button>
-            <button className="services_button" id="lista">
-              WYKAZ lub lista CZEGOŚ
-            </button>
+            <Link to="map">
+              <button className="services_button" id="mapa">
+                MAPA
+              </button>
+            </Link>
+            <Link to="militaryUnits">
+              <button className="services_button" id="lista">
+                WYKAZ lub lista CZEGOŚ
+              </button>
+            </Link>
           </div>
         </div>
         <div className="services_bottomRight">
